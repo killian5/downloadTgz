@@ -1,4 +1,4 @@
-# tgz 下载所有依赖tgz
+# dtgz 下载所有依赖tgz
 
 [![npm version](https://img.shields.io/npm/v/npm.svg)](https://npm.im/npm)
 
@@ -9,19 +9,19 @@
 ### 安装
 
 ```bash
-npm install tgz -g
+npm install dtgz -g
 ```
 
 ### 命令
 #### 1.下载所有依赖tgz(不包括peerOptional)
 ```bash
-tgz
+dtgz
 ```
 #### 2.下载所有依赖tgz(包括peerOptional)
 ```bash
-tgz -a
+dtgz -a
 ```
 #### 3.下载指定的依赖包(不包括peerOptional)
 ```bash
-tgz <vue | vue@0.0.0>
+dtgz <vue | vue@0.0.0>
 ```

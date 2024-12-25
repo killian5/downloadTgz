@@ -1,5 +1,5 @@
 {
-  "name": "tgz",
+  "name": "dtgz",
   "version": "1.0.0",
   "description": "download tgz",
   "scripts": {
@@ -12,7 +12,7 @@
     "tgz",
     "download tgz"
   ],
-  "author": "wjie",
+  "author": "weijie9090",
   "dependencies": {
     "@npmcli/config": "^10.0.0",
     "colors": "^1.4.0",
