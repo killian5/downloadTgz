@@ -1,8 +1,7 @@
 {
-  "name": "@tgz",
-  "version": "1.0.1",
+  "name": "xz-tgz",
+  "version": "1.0.0",
   "description": "download tgz",
-  "main": "bin/run.js",
   "scripts": {
     "build": "rollup -c"
   },
