@@ -1,22 +1,30 @@
 {
-  "name": "k-tgz",
-  "version": "1.0.0",
+  "name": "@tgz",
+  "version": "1.0.1",
   "description": "download tgz",
   "main": "bin/run.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "bin": {
-    "k-tgz": "bin/run.js"
+    "@tgz": "dist/bundle.js"
   },
   "files": [
-    "bin",
-    "lib",
-    "utils",
-    "node_modules"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "tgz",
-    "download tgz"
+    "nexus",
+    "download tgz",
+    "package-lock"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuchangyu/d-tgz"
+  },
   "author": "weijie9090",
+  "license": "MIT",
   "dependencies": {
     "@npmcli/config": "^10.0.0",
     "colors": "^1.4.0",
@@ -29,5 +37,14 @@
     "read-package-json-fast": "^4.0.0",
     "rimraf": "^6.0.1",
     "treeverse": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.30.1"
   }
 }
