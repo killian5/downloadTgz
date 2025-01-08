@@ -1,10 +1,7 @@
 {
-  "name": "dtgz",
+  "name": "download-tgz",
   "version": "1.0.0",
   "description": "download tgz",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "downloadTgz": "bin/run.js"
   },
