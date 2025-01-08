@@ -1,10 +1,17 @@
 {
-  "name": "download-tgz",
+  "name": "k-tgz",
   "version": "1.0.0",
   "description": "download tgz",
+  "main": "bin/run.js",
   "bin": {
-    "downloadTgz": "bin/run.js"
+    "k-tgz": "bin/run.js"
   },
+  "files": [
+    "bin",
+    "lib",
+    "utils",
+    "node_modules"
+  ],
   "keywords": [
     "tgz",
     "download tgz"
