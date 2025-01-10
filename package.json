@@ -1,12 +1,12 @@
 {
-  "name": "xz-tgz",
-  "version": "1.0.0",
+  "name": "w-tgz",
+  "version": "1.0.1",
   "description": "download tgz",
   "scripts": {
     "build": "rollup -c"
   },
   "bin": {
-    "@tgz": "dist/bundle.js"
+    "tgz": "dist/bundle.js"
   },
   "files": [
     "dist",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fuchangyu/d-tgz"
+    "url": "https://github.com/killian5/downloadTgz"
   },
   "author": "weijie9090",
   "license": "MIT",
