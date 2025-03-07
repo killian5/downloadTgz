@@ -1,6 +1,6 @@
 {
   "name": "w-tgz",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "download tgz",
   "scripts": {
     "build": "rollup -c"
@@ -26,6 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "@npmcli/config": "^10.0.0",
+    "axios": "^1.7.9",
     "colors": "^1.4.0",
     "commander": "^12.1.0",
     "npa": "^0.1.1",

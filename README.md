@@ -25,3 +25,7 @@ tgz -a
 ```bash
 tgz <vue | vue@0.0.0>
 ```
+#### 4.下载package-lock.json下的所有tgz
+```bash
+tgz -l
+```
